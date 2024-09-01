@@ -1,0 +1,11 @@
+gradio
+yt-dlp
+torchaudio
+pyannote.audio
+transformers
+pysrt
+tqdm
+moviepy
+torch  # Ensure CUDA version compatibility if using GPU
+PyYAML
+huggingface_hub
