@@ -2,6 +2,8 @@
 
 TranscribeTube is a Python-based tool that transcribes and generates subtitles for videos, either from local files or YouTube links, using Hugging Face models for speaker diarization and automatic speech recognition. The tool leverages **Gradio** to provide an easy-to-use, interactive web interface, allowing users to upload videos, choose languages, and download subtitles with just a few clicks.
 
+![TranscribeTube Screenshot](images/screenshot.PNG)
+
 ## Features
 
 - **Interactive Interface with Gradio**: Provides a user-friendly web interface for uploading videos, selecting transcription languages, and downloading results.
@@ -42,7 +44,6 @@ TranscribeTube is a Python-based tool that transcribes and generates subtitles f
 
    **Note**: For downloading Whisper models or other transcribe models locally, you can use the `download_hf_model.py` script provided in this repository. If you want to download granted models, you need to log in using the Hugging Face CLI. You can follow the instructions in the [Hugging Face CLI Guide](https://huggingface.co/docs/huggingface_hub/en/guides/cli) to set up your authentication. Make sure to update your `config.yaml` file to reflect the paths to your locally downloaded models. 
 
-
 ## Usage
 
 ### Running the Transcription Tool
@@ -69,6 +70,15 @@ After running the script, you can access the Gradio interface on your local mach
 * **Clear Outputs**: Use the "Clear" button to reset the interface and remove all related files.
 
 **Note**: If the video file is large, the download and transcription process may take a considerable amount of time. You can monitor the transcription progress displayed in the video output section.
+
+## Demo
+
+### See TranscribeTube in Action
+
+The GIF above demonstrates how easy it is to use TranscribeTube to transcribe and generate subtitles for videos. With just a few clicks, you can upload a video or enter a YouTube URL, select the desired language, and start the transcription process. Watch as the tool processes the video, displays the transcribed subtitles, and provides download options for both the video and subtitle files.
+
+![TranscribeTube Demo](images/TranscribeTubeDemo.gif)
+
 
 ## Contributing
 
